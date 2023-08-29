@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../My Framework/myFramework.css">
+</head>
+<body>
+        <div class="rad-10 bg-white p-20 m-auto">
+            <h1 class="h2 text-center p-20">Register With US</h1>
+            <form action="" class="d-flex direction-column">
+                <label class="mt-20 ml-5" for="">UserName</label>
+                <input id="userName" required class="p-10 mt-20 normal-input" type="text" placeholder="UserName">
+                <small id="userNameError" class="display-none c-red fs-13 p-5">UserName Must Be Between 3 & 17 Charachters</small>
+                <label class="mt-20 ml-5" for="">Email</label>
+                <input id="email" required class="p-10 mt-20 normal-input" type="email" placeholder="Email">
+                <label class="mt-20 ml-5" for="">Password</label>
+                <input id="password" required class="p-10 mt-20 normal-input" type="password" placeholder="Password">
+                <small id="passwordError" class="display-none c-red fs-13 p-5">Password Must Be Between 8 & 25 Charachters</small>
+                <label class="mt-20 ml-5" for="">Confirm The password</label>
+                <input id="confirmPassword" required class="p-10 mt-20 normal-input" type="password" placeholder="Confirm The Password">
+                <small id="confirmPasswordError" class="display-none c-red fs-13 p-5">Passoword Is Not The Same</small>
+                <input class="bg-blue c-white rad-10 pointer p-10 mt-20" type="submit" value="Submit">
+            </form>
+        </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
